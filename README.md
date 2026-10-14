@@ -1,59 +1,59 @@
-# Platforma do prowadzenia lig i turniejów e-sportowych
+# Esports leagues and tournaments platform
 
-Projekt zespołowy realizowany w Collegium Witelona (informatyka, semestr 5) w ramach przedmiotów:
+A team project built at Collegium Witelona (computer science, semester 5) for the following courses:
 
 - Projektowanie i programowanie systemów internetowych II (PPSI2)
 - Projektowanie interfejsów graficznych (PIG)
 - Wprowadzenie do zarządzania projektami deweloperskimi (WDZPD)
 
-## Opis
+## About
 
-Aplikacja pozwala organizować ligi (każdy z każdym) i turnieje pucharowe dla wybranych gier. Użytkownicy zakładają konta mailem lub przez Discord, tworzą drużyny i zapisują je do rozgrywek. Kapitanowie zgłaszają wyniki meczów, które potwierdza kapitan przeciwnika albo administrator rozgrywek. Terminarz i drabinka generowane są po stronie serwera, a tabela ligowa, drabinka i wyniki aktualizują się na żywo.
+The application lets organizers run round-robin leagues and knockout tournaments for selected games. Users sign up by email or with Discord, create teams and register them for competitions. Team captains report match results, which are confirmed by the opposing captain or by a competition administrator. The schedule and the bracket are generated on the server, and the league table, the bracket and the results update live.
 
-Role w systemie: użytkownik, kapitan, organizator, administrator.
+Roles: user, captain, organizer, administrator.
 
-## Zespół
+## Team
 
-| Osoba | Role |
+| Name | Role |
 |---|---|
-| Jakub Maliński | lider projektu, project manager, frontend |
+| Jakub Maliński | project lead, project manager, frontend |
 | Wojciech Kasprzyk | frontend |
 | Michał Kuchar | backend, tester |
 | Kyrylo Shchedrin | backend, devops |
 
-## Projekt interfejsu
+## Interface design
 
-Figma (dostęp do komentowania): LINK_DO_FIGMY
+Figma (comments enabled): LINK_DO_FIGMY
 
-## Stos technologiczny
+## Tech stack
 
-| Obszar | Technologie |
+| Area | Technologies |
 |---|---|
 | Frontend | Vue 3, TypeScript, Vite, Tailwind CSS, Pinia, Vue Router |
-| Biblioteka komponentów | Storybook |
+| Component library | Storybook |
 | Backend | Laravel (REST API), Sanctum, Socialite (Discord), Reverb, Scramble (OpenAPI), Spatie Activitylog |
-| Baza danych | PostgreSQL |
-| Testy | Vitest, Playwright, PHPUnit |
-| Infrastruktura | Docker Compose, GitHub Actions |
+| Database | PostgreSQL |
+| Testing | Vitest, Playwright, PHPUnit |
+| Infrastructure | Docker Compose, GitHub Actions |
 
-## Repozytoria
+## Repositories
 
-| Repozytorium | Zawartość |
+| Repository | Contents |
 |---|---|
-| [esport-platform](https://github.com/Mallinowo/esport-platform) | dokumentacja projektu (katalog `zaliczenie`), materiały z laboratorium |
-| [Esport-frontend](https://github.com/Mallinowo/Esport-frontend) | aplikacja Vue i biblioteka komponentów Storybook |
-| [Esport-backend](https://github.com/Mallinowo/Esport-backend) | REST API w Laravelu, specyfikacja OpenAPI, Docker Compose |
+| [esport-platform](https://github.com/Mallinowo/esport-platform) | project documentation (the `zaliczenie` directory), lab materials |
+| [Esport-frontend](https://github.com/Mallinowo/Esport-frontend) | Vue application and Storybook component library |
+| [Esport-backend](https://github.com/Mallinowo/Esport-backend) | Laravel REST API, OpenAPI specification, Docker Compose |
 
-Frontend i backend komunikują się wyłącznie przez REST API oraz WebSocket. Typy i klient API we frontendzie powstają ze specyfikacji OpenAPI generowanej przez backend.
+The frontend and the backend communicate only through the REST API and WebSocket. The API types and client in the frontend are generated from the OpenAPI specification produced by the backend.
 
-## Uruchomienie lokalne
+## Running locally
 
-Instrukcje uruchomienia są w README każdego z repozytoriów: najpierw backend, potem frontend.
+Setup instructions are in the README of each repository: backend first, then frontend.
 
-## Dokumentacja
+## Documentation
 
-Dokumentacja produktowa, techniczna, użytkownika i API znajduje się w katalogu `zaliczenie` i jest publikowana jako strona statyczna: LINK_DO_DOKUMENTACJI
+Product, technical, user and API documentation lives in the `zaliczenie` directory and is published as a static site: LINK_DO_DOKUMENTACJI
 
-## Wdrożenie
+## Deployment
 
-Aplikacja: LINK_DO_APLIKACJI
+Application: LINK_DO_APLIKACJI
