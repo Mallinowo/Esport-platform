@@ -7,4 +7,4 @@ W tej sekcji znajdują się informacje o członkach grupy projektowej.
 | Jakub Maliński | s3 inf programowanie aplikacji mobilnych i internetowych |
 | Wojciech Kasprzyk | s3 inf programowanie aplikacji mobilnych i internetowych |
 | Michał Kuchar | s3 inf programowanie aplikacji mobilnych i internetowych |
-| Kyrylo | s3 inf programowanie aplikacji mobilnych i internetowych |
+| Kyrylo Shchedrin | s3 inf programowanie aplikacji mobilnych i internetowych |

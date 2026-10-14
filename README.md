@@ -19,7 +19,7 @@ Role w systemie: użytkownik, kapitan, organizator, administrator.
 | Jakub Maliński | lider projektu, project manager, frontend |
 | Wojciech Kasprzyk | frontend |
 | Michał Kuchar | backend, tester |
-| Kyrylo | backend, devops |
+| Kyrylo Shchedrin | backend, devops |
 
 ## Projekt interfejsu
 
@@ -36,52 +36,19 @@ Figma (dostęp do komentowania): LINK_DO_FIGMY
 | Testy | Vitest, Playwright, PHPUnit |
 | Infrastruktura | Docker Compose, GitHub Actions |
 
-Frontend i backend są osobnymi aplikacjami i komunikują się wyłącznie przez REST API oraz WebSocket.
+## Repozytoria
 
-## Struktura repozytorium
+| Repozytorium | Zawartość |
+|---|---|
+| [esport-platform](https://github.com/Mallinowo/esport-platform) | dokumentacja projektu (katalog `zaliczenie`), materiały z laboratorium |
+| [Esport-frontend](https://github.com/Mallinowo/Esport-frontend) | aplikacja Vue i biblioteka komponentów Storybook |
+| [Esport-backend](https://github.com/Mallinowo/Esport-backend) | REST API w Laravelu, specyfikacja OpenAPI, Docker Compose |
 
-```
-frontend/     aplikacja Vue i Storybook
-backend/      API w Laravelu
-docker/       konfiguracja kontenerów
-zaliczenie/   dokumentacja projektu (WDZPD)
-lab/          materiały z laboratorium WDZPD
-```
+Frontend i backend komunikują się wyłącznie przez REST API oraz WebSocket. Typy i klient API we frontendzie powstają ze specyfikacji OpenAPI generowanej przez backend.
 
 ## Uruchomienie lokalne
 
-Wymagania: Docker i Docker Compose.
-
-```bash
-git clone https://github.com/Mallinowo/esport-platform.git
-cd esport-platform
-cp backend/.env.example backend/.env
-docker compose up -d
-docker compose exec backend composer install
-docker compose exec backend php artisan key:generate
-docker compose exec backend php artisan migrate --seed
-```
-
-| Usługa | Adres |
-|---|---|
-| Frontend | http://localhost:5173 |
-| API | http://localhost:8000/api |
-| Dokumentacja API | http://localhost:8000/docs/api |
-| Storybook | http://localhost:6006 |
-
-## Testy
-
-```bash
-docker compose exec backend php artisan test
-docker compose exec frontend npm run test
-docker compose exec frontend npm run test:e2e
-```
-
-## Biblioteka komponentów
-
-```bash
-docker compose exec frontend npm run storybook
-```
+Instrukcje uruchomienia są w README każdego z repozytoriów: najpierw backend, potem frontend.
 
 ## Dokumentacja
 
