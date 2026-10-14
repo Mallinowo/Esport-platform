@@ -1,0 +1,16 @@
+ID;Historyjka;Priorytet;Estymacja (SP);Status
+US-001;Jako użytkownik, chcę móc zarejestrować konto, aby uzyskać dostęp do platformy.;Wysoki;5;Do zrobienia
+US-002;Jako użytkownik, chcę móc zalogować się za pomocą e-maila i hasła, aby uzyskać dostęp do mojego konta.;Wysoki;3;Do zrobienia
+US-003;Jako użytkownik, chcę móc zresetować hasło, aby odzyskać dostęp do konta.;Średni;3;Do zrobienia
+US-004;Jako użytkownik, chcę móc edytować informacje w moim profilu, aby moje dane były aktualne.;Średni;5;Do zrobienia
+US-005;Jako użytkownik, chcę móc wgrać zdjęcie profilowe, aby spersonalizować moje konto.;Niski;2;Do zrobienia
+US-006;Jako użytkownik, chcę móc wyszukiwać produkty po nazwie, aby szybko znaleźć to, czego potrzebuję.;Wysoki;8;Do zrobienia
+US-007;Jako użytkownik, chcę móc filtrować wyniki wyszukiwania według kategorii, aby zawęzić opcje.;Średni;5;Do zrobienia
+US-008;Jako użytkownik, chcę móc dodawać produkty do koszyka, aby kupić wiele produktów naraz.;Wysoki;5;Do zrobienia
+US-009;Jako użytkownik, chcę móc usuwać produkty z koszyka, aby zmienić decyzję przed zakupem.;Średni;2;Do zrobienia
+US-010;Jako użytkownik, chcę móc wprowadzić informacje o wysyłce, aby produkty mogły zostać dostarczone.;Wysoki;8;Do zrobienia
+US-011;Jako użytkownik, chcę móc wybrać metodę płatności, aby sfinalizować zakup.;Wysoki;5;Do zrobienia
+US-012;Jako użytkownik, chcę móc przeglądać historię moich zamówień, aby śledzić przeszłe zakupy.;Średni;5;Do zrobienia
+US-013;Jako użytkownik, chcę móc śledzić status zamówienia, aby wiedzieć, kiedy moje zamówienie dotrze.;Wysoki;8;Do zrobienia
+US-014;Jako administrator, chcę móc zarządzać kontami użytkowników, aby utrzymać porządek na platformie.;Średni;8;Do zrobienia
+US-015;Jako administrator, chcę móc przeglądać panel analityczny, aby monitorować wydajność platformy.;Niski;13;Do zrobienia

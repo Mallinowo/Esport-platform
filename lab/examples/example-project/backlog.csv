@@ -1,0 +1,51 @@
+ID;Tytuł;Priorytet;Estymacja;Status;Sprint
+US-001;Rejestracja i logowanie użytkownika;P0;8;Ukończono;Sprint 1
+US-002;Szybkie ponawianie zamówienia dla stałych klientów;P1;13;W backlogu;Sprint 4
+US-003;Zaawansowane filtrowanie produktów;P1;8;Do zrobienia;Sprint 2
+US-004;Porównywanie produktów;P2;5;W backlogu;
+US-005;Płatność za pobraniem;P1;5;Ukończono;Sprint 1
+US-006;Zakup jednym kliknięciem (One-click checkout);P1;8;W trakcie;Sprint 2
+US-007;Czat na żywo z obsługą klienta;P1;13;Do zrobienia;Sprint 3
+US-008;Opinie o produktach od zweryfikowanych kupujących;P0;8;Ukończono;Sprint 1
+US-009;Responsywny design mobilny;P0;13;Ukończono;Sprint 1
+US-010;Tryb wysokiego kontrastu i większe czcionki;P1;8;Do zrobienia;Sprint 3
+US-011;Logowanie przez email i media społecznościowe;P0;5;Ukończono;Sprint 1
+US-012;Resetowanie hasła przez email;P1;3;Ukończono;Sprint 1
+US-013;Zmiana hasła w profilu użytkownika;P1;2;Ukończono;Sprint 1
+US-014;Edycja profilu użytkownika;P1;3;Do zrobienia;Sprint 2
+US-015;Zapisane adresy dostawy;P0;5;Ukończono;Sprint 1
+US-016;Zapisane metody płatności;P0;5;W trakcie;Sprint 2
+US-017;Historia zamówień;P0;5;Ukończono;Sprint 1
+US-018;Wyszukiwarka z autouzupełnianiem;P0;8;Ukończono;Sprint 1
+US-019;Sugestie wyszukiwania oparte na historii;P2;5;W backlogu;
+US-020;Wyszukiwanie głosowe na urządzeniach mobilnych;P2;8;W backlogu;
+US-021;Strona szczegółów produktu;P0;8;Ukończono;Sprint 1
+US-022;Powiększenie zdjęcia produktu;P1;3;Do zrobienia;Sprint 2
+US-023;Warianty produktów (rozmiar, kolor);P0;5;Ukończono;Sprint 1
+US-024;Powiadomienie o ponownej dostępności produktu;P1;5;W backlogu;
+US-025;Koszyk (dodawanie, edycja, usuwanie);P0;5;Ukończono;Sprint 1
+US-026;Synchronizacja koszyka między urządzeniami;P1;3;Do zrobienia;Sprint 2
+US-027;Kalkulator kosztów dostawy;P0;3;Ukończono;Sprint 1
+US-028;Podsumowanie zamówienia przed płatnością;P0;3;Ukończono;Sprint 1
+US-029;Email z potwierdzeniem zamówienia;P0;3;Ukończono;Sprint 1
+US-030;Integracja płatności Stripe (karty);P0;8;Ukończono;Sprint 1
+US-031;Integracja płatności PayPal;P1;5;W trakcie;Sprint 2
+US-032;Integracja płatności BLIK;P1;8;W backlogu;
+US-033;Śledzenie statusu zamówienia;P0;5;Ukończono;Sprint 1
+US-034;Powiadomienia SMS o statusie wysyłki;P1;5;Do zrobienia;Sprint 2
+US-035;Wybór różnych metod dostawy;P0;5;Ukończono;Sprint 1
+US-036;Możliwość zgłoszenia zwrotu produktu;P1;8;W backlogu;
+US-037;Lista życzeń (dodawanie, usuwanie);P1;5;W backlogu;
+US-038;Udostępnianie listy życzeń;P2;3;W backlogu;
+US-039;Powiadomienie o obniżce ceny produktu z listy życzeń;P2;5;W backlogu;
+US-040;Zapis do newslettera;P1;2;Do zrobienia;Sprint 2
+US-041;Obsługa kodów promocyjnych w koszyku;P1;5;Do zrobienia;Sprint 3
+US-042;Baner z rabatem na pierwsze zamówienie;P1;3;W backlogu;
+US-043;Rekomendacje produktów;P2;13;W backlogu;
+US-044;Wyświetlanie ostatnio oglądanych produktów;P1;5;W backlogu;
+US-045;Możliwość oceny dostawy;P2;3;W backlogu;
+US-046;Panel administracyjny - logowanie;P0;3;Ukończono;Sprint 1
+US-047;Panel administracyjny - zarządzanie produktami;P0;8;Ukończono;Sprint 1
+US-048;Panel administracyjny - przeglądanie zamówień;P0;5;Ukończono;Sprint 1
+US-049;Panel administracyjny - zarządzanie użytkownikami;P1;5;Do zrobienia;Sprint 2
+US-050;Panel administracyjny - analityka sprzedaży;P1;13;W backlogu;
