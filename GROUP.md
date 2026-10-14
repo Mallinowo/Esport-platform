@@ -2,6 +2,9 @@
 
 W tej sekcji znajdują się informacje o członkach grupy projektowej.
 
-| Imię i Nazwisko | grupa uczelniana | 
+| Imię i Nazwisko | grupa uczelniana |
 |-----------------|------------------|
-| Jan Kowalski    | 2.1u             |
+| Jakub Maliński | s3 inf programowanie aplikacji mobilnych i internetowych |
+| Wojciech Kasprzyk | s3 inf programowanie aplikacji mobilnych i internetowych |
+| Michał Kuchar | s3 inf programowanie aplikacji mobilnych i internetowych |
+| Kyrylo | s3 inf programowanie aplikacji mobilnych i internetowych |
